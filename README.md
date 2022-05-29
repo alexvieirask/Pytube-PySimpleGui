@@ -6,7 +6,7 @@ Using python together with the pytube and pysimplegui libraries, a youtube video
 
 Download the repository and Run 'main' file
 
-### Developers
+#### Developers
 Alex Vieira Dias
 Amadeus Vitor Poletti
 Gabriel Molon Zanella
