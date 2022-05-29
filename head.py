@@ -7,7 +7,7 @@ class Head(object):      #Classe objeto que representa as funções de download 
     @staticmethod
     def download_mp4(link) -> None:    #Método estático que é responsável por fazer o download de vídeos em MP4.
         video = YouTube(link)
-        video.streams.get_highest_resolution().download()
+        video.streams.get_highest_resolution().download('MP4')
     
     @staticmethod
     def download_mp3(link) -> None:    #Método estático que é responsável por fazer converter vídeos MP4 para áudios em MP3 e realizar o seu download.
