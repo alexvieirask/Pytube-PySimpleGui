@@ -4,9 +4,16 @@ Using python together with the pytube and pysimplegui libraries, a youtube video
 
 ## How to Use
 
-Download the repository and Run 'main' file
+1. Download the repository;
+2. Open repository folder in Visual Studio Code or software similary;
+3. Execute main file.
 
-#### Developers
+## Screens
+<div align="center">
+  <img src="https://i.ibb.co/QPvtKCs/interface.png">
+</div>
+
+## Developers
 - Alex Vieira Dias
 - Amadeus Vitor Poletti
 - Gabriel Molon Zanella
