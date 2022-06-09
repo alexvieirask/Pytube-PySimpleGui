@@ -75,27 +75,16 @@ class Main(object): #Classe objeto que representa a parte principal do aplicativ
             Warning.videounavailable()
             window_mp3.hide()
         
-        except VideoRegionBlocked:      #Tratamento de excessão para caso o vídeo não esteja disponível em sua região.
-            Warning.videoregionblocked()
-            window_mp3.hide()
-
-        except VideoPrivate:            #Tratamento de excessão para caso o vídeo seja de exibição privada.
-            Warning.privatevideo()
-            window_mp3.hide()
-        
         except ExtractError:              #Tratamento de excessão para caso ocorra um erro de extração.
             Warning.extract()        
             window_mp3.hide()
-        
-        except LiveStreamError:           #Tratamento de excessão para caso o link em questão seja uma LiveStream.
-            Warning.livestream()
-            window_mp3.hide()
+            
             
     def janela_mp4(self) -> None:  #Método utilizado para exibir a interface do download de vídeos em MP4 e executar as opções.
         layout2 =[
             [sg.Text('────── ♪  MP4  ♪ ──────', font=('Consolas', 12))],
             [sg.Text('')],
-            [sg.Text('𝐈𝐍𝐒𝐈𝐑𝐀 𝐎 𝐋𝐈𝐍𝐊 𝐃𝐎 𝐕𝐈𝐃𝐄𝐎', 12)],
+            [sg.Text('𝐈𝐍𝐒𝐈𝐑𝐀 𝐎 𝐋𝐈𝐍𝐊 𝐃𝐎 𝐕𝐈𝐃𝐄𝐎')],
             [sg.Input(key='-LINK-')],
             [sg.Text('')],
             [sg.Button('Baixar', size=(13,1))],
