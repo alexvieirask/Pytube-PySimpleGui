@@ -1,19 +1,18 @@
 # Pytube-PySimpleGui
-This project was developed in 2021 by three students from Instituto Federal Catarinense.
-Using python together with the pytube and pysimplegui libraries, a youtube video downloader application was developed.
+Este projeto foi desenvolvido em 2021 por três alunos do Instituto Federal Catarinense. Utilizando python em conjunto com as bibliotecas pytube e pysimplegui. Foi desenvolvido um aplicativo de download de vídeos do youtube.
 
-## How to Use
+## Como usar
 
-1. Download the repository;
-2. Open repository folder in Visual Studio Code or software similary;
-3. Execute main file.
+1. Baixe o repositório;
+2. Abra a pasta do repositório no Visual Studio Code ou em algum programa similar;
+3. Execute o arquivo "main"
 
 ## Screens
 <div align="center">
   <img src="https://i.ibb.co/QPvtKCs/interface.png">
 </div>
 
-## Developers
+## Desenvolvedores
 - Alex Vieira Dias
 - Amadeus Vitor Poletti
 - Gabriel Molon Zanella
